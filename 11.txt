@@ -1,0 +1,17 @@
+
+DROP TABLE oil_pro;
+ CREATE TABLE oil_pro(
+        ID          VARCHAR2(10),
+        loc         VARCHAR2(20),
+        name        VARCHAR2(100),
+        addr        VARCHAR2(100),
+        brand       VARCHAR2(20),
+        phone       VARCHAR2(15),
+        self        CHAR(2),
+        pr_oil      NUMBER,
+        oil         NUMBER,
+        diesel      NUMBER,
+        kerosene    NUMBER,
+        gu          VARCHAR2(20),
+        CONSTRAINT oil_pro_pk_ID PRIMARY KEY(ID)
+    )
